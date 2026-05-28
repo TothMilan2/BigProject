@@ -17,11 +17,26 @@ namespace BigProject.Igen
     /// <summary>
     /// Interaction logic for DatabaseUi.xaml
     /// </summary>
-    public partial class DatabaseUi : Window
+    public partial class MainWindow : Window
     {
-        public DatabaseUi()
+        public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void felhasznaloMenu_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            
+        }
+
+        private void vasarloMenu_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            
+        }
+
+        private void termekMenu_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            
         }
     }
 }
